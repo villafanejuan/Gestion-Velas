@@ -44,7 +44,7 @@ $frascos = $conn->query("SELECT * FROM tipos_frascos WHERE activo = 1 ORDER BY n
     <!-- Bienvenida -->
     <div class="w-full max-w-4xl mx-auto mb-8">
         <div class="bg-white rounded-xl shadow-lg p-8 flex flex-col items-center">
-            <h1 class="text-4xl font-extrabold text-pink-600 mb-2">¡Bienvenida Adriana!</h1>
+            <h1 class="text-4xl font-extrabold text-pink-600 mb-2">¡Bienvenido!</h1>
             <p class="text-lg text-gray-700 mb-6">al sistema de gestión de velas y difusores</p>
             <!-- Botones para gestionar precios -->
             <div class="flex flex-wrap gap-4 justify-center">
@@ -492,3 +492,4 @@ $frascos = $conn->query("SELECT * FROM tipos_frascos WHERE activo = 1 ORDER BY n
 
 </body>
 </html>
+
